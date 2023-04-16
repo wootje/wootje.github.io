@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="ADDON_ID_HERE" name="wootje repo" version="1" provider-name="wootje">
     <extension point="xbmc.addon.repository" name="wootje repo">
-        <dir>
+        <dir minversion="20.0.0" maxversion="20.9.9">
             <info compressed="false">https://raw.githubusercontent.com/wootje/wootje.github.io/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/wootje/wootje.github.io/master/repo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/wootje/wootje.github.io/master/repo/zips/</datadir>
@@ -10,8 +10,9 @@
     <extension point="xbmc.addon.metadata">
         <summary>wootje</summary>
         <description>wootje add-ons collection</description>
-        <disclaimer>Enjoy!</disclaimer>
+        <disclaimer>We try to provide good add-ons. We can't garantee all add-ons function properly. Installing and using the add-ons is at your own risk.</disclaimer>
         <platform>all</platform>
+        <language>en</language>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
